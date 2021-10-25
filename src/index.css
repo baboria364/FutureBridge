@@ -1,13 +1,54 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.all__movies{
+  color: #979797;
+  padding: 50px 100px 50px;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.movie__url{
+  width:950px;
+}
+.head__text {
+  padding: 40px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.movie-content{
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 50px 40px 15px;
+  border: 1px solid #cfc7c7;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.movie__tittle{
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+  border-bottom: 1px solid #fa253b;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.movie__desc{
+  padding-top: 10px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom: 10x;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.movie__pub{
+  /* position: absolute; */
+  right: 180px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
 }
